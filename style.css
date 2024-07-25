@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(36, 36, 36, 0.5), #000), url(images/background2.jpg);
+    position: relative;
+    padding: 10px 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+nav .logo{
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+    
+}
+nav .logo img{
+    width: 100%;
+    }
+button{
+    border: 0;
+    outline: none;
+    background:rgb(206, 12, 12);
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.lang-btn{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.lang-btn i{
+    margin-left: 6px;
+}
+.header-text{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+.header-text h1{
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 800;
+}
+.header-text h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.header-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.header-text email{
+    display: flex;
+    gap: 6px;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    margin: auto;
+}
+.email input{
+    padding: 16px 40px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background: rgba(20, 20, 20, 0.8);
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+.email button{
+    background: rgb(211, 22, 22);
+    padding: 12px 25px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    font-size: 22px;
+    color: #fff;
+}
+.email button i{
+    margin-left: 8px;
+
+}
+hr{
+    background: rgb(66, 65, 65);
+    width: 100%;
+    height: 7px;
+    border: 0;
+    outline: 0;
+}
+
+/* -------Body Section CSS Code--------- */
+
+.container{
+    width: 100%;
+    padding: 50px 0;
+
+}
+.body-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    height: 520px;
+}
+.text-col{
+    width: 50%;
+}
+.text-col h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.text-col p{
+    font-size: 20px;
+}
+.img-col{
+    position: relative;
+}
+
+.img-col img{
+    width: 500px;
+    position: relative;
+    z-index: 10;
+
+}
+.img-col video{
+    position: absolute;
+    width: 400px;
+    top: 58px;
+    right: 70px;
+}
+/* Main3 part */
+.main3 {
+    background-color: black;
+    height: 86vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 78%;
+    height: 63%;
+}
+
+/* img part 3 */
+.imgpart3 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    /* top: -52px; */
+    /* width:100%; */
+    /* height: 100%; */
+
+}
+
+.imgpart3 img {
+    width: 100%;
+    /* position: relative; */
+    /* Set width to 100% to fill the container */
+    /* height: auto; */
+    /* Maintain aspect ratio */
+    /* position: absolute; */
+    /* top: -195px; */
+}
+
+/* s-box styling */
+.s-box {
+    width: 55%;
+    height: 28%;
+    border: 2px solid grey;
+    border-radius: 12px;
+    background-color: black;
+    /* z-index: 3; */
+    position: absolute;
+    bottom: 1.2em;
+    /* top: 75%;
+    left: 22%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 5; */
+}
+.s-box-img img{
+    width: 100%;
+    padding: 0px 5px;
+
+}
+.s-box-img{
+    /* width: 100%;
+    height: 80%; */
+    /* position: relative; */
+    /* top: 6%; */
+    /* left: 5%; */
+    /* z-index: 2; */
+    flex: 1;
+}
+
+.s-boxtext {
+    padding: 8px;
+    color: white;
+    flex: 2;
+    font-size: 0.8em;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.s-boxanimate {
+    padding: 6px;
+    flex: 1;
+}
+.s-boxanimate img{
+    padding: 5px;
+    width: 100%;
+    height:100%;
+}
+
+.s-boxtext span {
+    color: #0071eb;
+}
+
+/* text part 3 */
+.textpart3 {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: white;
+}
+
+.content3-h,
+.text4 h1,
+.textpart5 h1,
+.content6 h1 {
+    font-size: 3em;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    -webkit-text-stroke: 1px white;
+    /* For webkit browsers */
+    /* margin-bottom: 15px; */
+    color: white;
+}
+
+.textpart3 span,
+.text4 span,
+.textpart5 span,
+.submit6 span {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+}
+.img-col-third{
+    position: relative;
+}
+
+.img-col-third img{
+    width: 600px;
+    position: relative;
+    z-index: 10;
+
+}
+.img-col-third video{
+    position: absolute;
+    width: 390px;
+    top: 48px;
+    right: 105px;
+}
+/* Main 5 */
+.main5 {
+    height: 86vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content5 {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textpart5 {
+    width: 47%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagepart5 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 47%;
+}
+
+.imagepart5 img {
+    width: 100%;
+    height: 100%;
+}
+/* .......FAQ Section CSS....... */
+.faq{
+    width: 100%;
+}
+.faq h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.faq .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq .row button{
+    padding: 30px 70px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 550;
+    background: #353232;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.faq .row button:hover{
+    background-color: #5a5757;
+}
+.faq .row button::after{
+    content: '+';
+    float: right;
+    font-size: 32px;
+}
+.faq-footer .header-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* .......Main Footer..... */
+.footer{
+    width: 100%;
+    padding:50px 12% 20px;
+}
+.footer .row{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 20px 0;
+
+}
+.footer .row .col a{
+    display: block;
+    color: #999797;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.footer h2 a{
+    font-size: 15px;
+    color: #999797;
+    margin-bottom: 30px;
+}
+.footer p{
+    color: #918e8e;
+    margin: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+
+/* .........Media query for small Screen......... */
+@media only screen and (max-width:700px) and (min-width:300px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    nav .logo{
+        width: 100%;
+
+    }
+    button {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+    .hearder-text{
+        margin-top: 12%;
+
+    }
+    .header-text h3, .header-text p{
+        font-size: 18px;
+    }
+    .email button{
+        font-size: 16px;
+    }
+    .email input{
+        width: 100%;
+    }
+    .header-text .email{
+        flex-direction: column;
+    }
+    .header-text h1{
+        font-size: 40px;
+    }
+    .body-section{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .second, .fourth{
+        flex-direction: column-reverse;
+    }
+    .body-section .text-col h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .faq h1{
+        font-size: 32px;
+    }
+    .faq .row{
+        width: 100px;
+    }
+    .faq .row button{
+        width: 90%;
+        font-size: 20px;
+    }
+    .faq-footer{
+        width: 80%;
+        margin: auto;
+    }
+    .footer .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
