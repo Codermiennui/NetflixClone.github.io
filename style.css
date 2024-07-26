@@ -461,7 +461,7 @@ hr{
         font-size: 32px;
     }
     .faq .row{
-        width: 100px;
+        width: 100%;
     }
     .faq .row button{
         width: 90%;
